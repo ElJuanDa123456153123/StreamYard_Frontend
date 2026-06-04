@@ -89,11 +89,7 @@ export interface StreamList {
   thumbnailUrl?: string;
   scheduledFor?: string;
   viewerCount: number;
-  owner: {
-    id: string;
-    name: string;
-    avatar?: string;
-  };
+  ownerId: string;
   createdAt: string;
 }
 
